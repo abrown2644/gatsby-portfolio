@@ -1,0 +1,17 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    /* background-color: #d7f5ea; */
+    background-color: #50c9ce;
+
+}
+
+* {
+    color: #eaf9fa;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+@media all and (min-width: 800px) {
+    html, body {overflow: hidden;}
+}
+

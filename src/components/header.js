@@ -1,34 +1,30 @@
-import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import styles from "./header.module.css"
+import Social from "../components/social"
+import { Link } from "gatsby"
+import avatar from "../images/avatar.jpg"
+
+console.log(styles)
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
-  </header>
+  <div className={styles.container}>
+  {/* <div className={styles.nameDiv}>
+  <h2 className={styles.myName}>Andrew Brown</h2>
+  </div> */}
+
+      <nav className={styles.navbar}>
+        <div className={styles.top}>
+          {/* <Social/> */}
+          <img src={avatar} className={styles.avatar}></img>
+        </div>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="page-2">About</a></li>
+          <li><a href="#">Skills</a></li>
+        </ul>
+      </nav>
+  </div>
 )
 
 Header.propTypes = {

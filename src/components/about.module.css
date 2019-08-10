@@ -1,0 +1,44 @@
+
+
+@media all and (min-width: 800px) {
+
+    .container {
+        display: flex;  
+        margin-top: 200px ;
+        position: fixed;
+        left: 320px;
+        right: 20px;
+    }
+    
+    .container > * {
+        padding: 10px;
+        flex: 1 100%;
+    }
+
+    .row {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .content {
+        max-width: 350px;
+    }
+
+    .icon {
+        height: 120px;
+    }
+
+    .title {
+        font-size: 26px;
+        margin: 0;
+    }
+
+    .subTitle{
+        font-size: 15px;
+    }
+
+    .description {
+        font-size: 17px;
+    }
+
+}

@@ -1,0 +1,41 @@
+{
+    "work": {
+        "heading": "Relevant Work Experience",
+        "job1":{
+            "title": "Web Developer",
+            "company": "Synergy Networks - Fort Myers, FL",
+            "date": "October 2018 to Present",
+            "description": "At Synergy Networks I design and build custom websites and image ads for our clients. I also perform touch-ups/edits to company logos from time to time."
+        },
+        "job2":{
+            "title": "Web Developer",
+            "company": "Webfinn - Fort Myers, FL",
+            "date": "February 2017 to Present",
+            "description": "I frequently freelance remotely for Webfinn, a small company out of North Fort Myers. I focus on building websites and landing pages in ASP.NET and .NET Core frameworks."
+        }
+    },
+
+    "school": {
+        "heading": "Education",
+        "school1": {
+            "degree": "Computer Programming",
+            "name": "Florida SouthWestern State College",
+            "date": "August 2018 to Present"
+        }
+    },
+
+    "skills": {
+        "heading": "Skills & Certificates",
+        "languages": [
+            "HTML5", "CSS3", "Bootstrap", "Javascript/Jquery", "ReactJS", "C#", "Python", "Adobe Illustrator/Photoshop"
+        ],
+        "certifications": [
+            "Certified in Google Analytics", "Adwords", "Web Designer"
+        ]
+    },
+
+    "References": {
+        "heading": "References",
+        "description": "Available upon request."
+    }
+}

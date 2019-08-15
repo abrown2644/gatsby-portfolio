@@ -1,0 +1,102 @@
+* {
+    --primary:#50c9ce;
+    --secondary:#002244;
+    --accent:#3cfa75;
+    --text: #eaf9fa;
+}
+
+@media all and (min-width: 800px) {
+    
+    .top {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    }
+
+    .avatar {
+        margin-top: 10px;
+        height: 120px;
+        width: 120px;
+        border: 4px var(--accent) solid;
+        border-radius: 50%;
+        margin-bottom: 0;
+    }
+
+    .topName {
+        font-size: 1em;
+        margin: 0;
+        padding-bottom: 0;
+    }
+
+    .topTitle {
+        font-size: .8em;
+        margin-top: 0;
+        padding-top: 0;
+        font-weight: lighter;
+        color: var(--primary);
+    }
+
+    .navbar {
+        background-color: var(--secondary);
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        position: fixed;
+    }
+    
+    .navbar ul {
+        display: flex;
+        list-style-type: none;
+        flex-flow: column nowrap;
+        width: 89%;
+    }
+    
+    .navbar ul a {
+        text-decoration: none;
+        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        display: block;
+        color: var(--text);
+    }
+
+    .navbar li {
+        display: flex;
+        padding: 15px;
+        justify-content: space-between;
+        background-color: #001a33;
+        border-radius: 3%;
+        /* border: 2px solid var(--primary) */
+        
+    }
+    
+    .navbar li a:hover {
+        /* background-color: rgba(0, 0, 0, 0.219); */
+        color: #d4d4d4;
+    }
+
+    .inactiveDot {
+        height: 15px;
+        width: 15px;
+        padding: 2px;
+        margin-right: 10px;
+        background-color: #001a33;
+        border-radius: 50%;
+        border: 2px solid #002b53;
+        align-self: center;
+    }
+
+    .activeDot {
+        height: 15px;
+        width: 15px;
+        padding: 2px;
+        margin-right: 10px;
+        background-color: #00ff4c;
+        border-radius: 50%;
+        border: 2px solid #01d641;
+        align-self: center;
+    }
+
+}

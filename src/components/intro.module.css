@@ -2,10 +2,10 @@
 
   @media all and (min-width: 800px) {
     .intro {
-      display: flex;
+      /* display: flex; */
       margin: auto;
       text-decoration: none;
-      padding: 10px;
+      /* padding:0 0 0 250px; */
       justify-content: center;
     }
     
@@ -18,22 +18,23 @@
       color: #0c0c0c; 
       font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
       font-weight: 900;
-      font-size: 4em;
+      font-size: 3.5em;
       margin: 10px 0 0 10px;
       white-space: nowrap;
       overflow: hidden;
-      width: 16.5em;
+      width: 12em;
       padding: 20px 0 20px 0;
-      animation: type 0s steps(50, end);
+      animation: type 3s steps(50, end);
       /* text-shadow: 0 0 4px rgb(80, 80, 80), 0 0 2px rgba(2, 2, 2, 0.719);  */
       }
       
       .introText > p:nth-child(2){
-        animation: type2 3s steps(60, end);
+        animation: type2 5s steps(60, end);
       }
-      .introText > p:nth-child(3){
+
+      /* .introText > p:nth-child(3){
         animation: type2 6s steps(60, end);
-      }
+      } */
       /* .introText > p:nth-child(4){
         animation: type2 4.1s steps(60, end);
       }
@@ -43,6 +44,7 @@
       .introText > p:nth-child(6){
         animation: type2 14s steps(60, end);
       } */
+
       .introText p a{
         color: #00fd76;
         text-decoration: none;

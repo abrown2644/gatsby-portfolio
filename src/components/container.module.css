@@ -1,4 +1,8 @@
-.container {
-  margin: 3rem auto;
-  }
-  
+@media all and (min-width: 800px) {
+  .container {
+    margin: 3rem auto;
+    width: 80vw;
+    padding: 40px 0 0 120px;
+    }
+
+}

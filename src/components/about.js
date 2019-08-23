@@ -9,36 +9,21 @@ class About extends React.Component {
         return (
             <section id={"about"}>
                 <div className={styles.container}>
-                    <div className={[styles.row, styles.row1].join}>
-                        <img className={styles.icon} src={phone}></img>
-                        <div className={styles.content}>
-                            <h2 className={styles.title}>Responsive Design.</h2>
-                            <p className={styles.subTitle}>Mobile first? How about mobile at the same time O.o</p>
-                            <p className={styles.description}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            Nunc nec leo leo. Curabitur ut quam sit amet leo condimentum dapibus vitae a nibh. </p>
-                        </div>    
+                    <div className={styles.row}>
+                        <h2>Who <i>am I ?</i></h2>
+                        <p>I am Andrew, a part-time student and full time web developer. I enjoy spending long hours on the computer building things.</p>
                     </div>
 
-                    <div className={[styles.row, styles.row2].join}>
-                        <img className={styles.icon} src={code}></img>
-                        <div className={styles.content}>
-                            <h2 className={styles.title}>Modern Practices.</h2>
-                            <p className={styles.subTitle}>Modern problems require modern solutions.</p>
-                            <p className={styles.description}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            Nunc nec leo leo. Curabitur ut quam sit amet leo condimentum dapibus vitae a nibh. Sed fac
-                            ilisis pellentesque urna. Proin nibh mauris, interdum eu justo id,feugiat gravida turpis.</p>
-                        </div>
+                    <div className={styles.row}>
+                        <h2>Just Work Stuff</h2>
+                        <p>I am currently working for Synergy Networks in Fort Myers Florida. My role is to design and build responsive websites for our clients from the ground up.</p>
+                        <p>I also freelance for Webfinn, a local startup focusing on building web apps.</p>
                     </div>
 
-                    <div className={[styles.row, styles.row3].join}>
-                        <img className={styles.icon} src={team}></img>
-                        <div className={styles.content}>
-                            <h2 className={styles.title}>Team Player.</h2>
-                            <p className={styles.subTitle}>Hey! Same team!</p>
-                            <p className={styles.description}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            Nunc nec leo leo. Curabitur ut quam sit amet leo condimentum dapibus vitae a nibh. Sed fac
-                            ilisis pellentesque urna. Proin nibh mauris, interdum eu justo id,feugiat gravida turpis.</p>
-                        </div>
+                    <div className={styles.row}>
+                        <h2>Whats the plan?</h2>
+                        <p>I am currently working for Synergy Networks in Fort Myers Florida. My role is to design and build responsive websites for our clients from the ground up.</p>
+                        <p>I also freelance for Webfinn, a local startup focusing on building web apps.</p>
                     </div>
                 </div>
             </section>

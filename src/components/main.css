@@ -1,0 +1,36 @@
+html, body {
+    background-color: var(--primary);
+    /* screen scrolly no no */
+    overflow: auto;
+}
+
+* {
+    color: var(--text);
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    /* --primary: #5bc0be;
+    --secondary: #a3c4bc;
+    --accent: #2afc98;
+    --bg: #5bc0be;
+    --text: #eaf9fa; */
+    --primary:#5bc0be;
+    --secondary: #0d1f2d;
+    --accent:#3cfa75;
+    --text: #eaf9fa;
+}
+    /* possible scheme?
+    --primary:#272d2d;
+    --secondary:#f3efe0;
+    --accent:#3cfa75;
+    --text: ; */
+
+    /* another scheme?
+    --primary: #5bc0be;
+    --secondary: #0d1f2d;
+    --accent: #2afc98;
+    --bg: #476a6f; */
+
+@media all and (min-width:1000px) {
+    main {
+        margin-left: 10vw;
+    }
+}

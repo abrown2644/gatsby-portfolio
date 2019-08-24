@@ -29,7 +29,7 @@ html, body {
     --accent: #2afc98;
     --bg: #476a6f; */
 
-@media all and (min-width:1000px) {
+@media all and (min-width:800px) {
     main {
         margin-left: 10vw;
     }

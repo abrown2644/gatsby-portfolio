@@ -120,11 +120,11 @@ class Skills extends React.Component {
                     </div>
                     <div style={jsCircle} className={`${styles.skill}`} onClick={() => this.setState({active3: !this.state.active3})}>
                         <img className={this.state.active3 && styles.img || styles.nameDiv} src={javascript}></img>
-                        <div className={this.state.active3 && styles.nameDiv}><p style={jsCircle} className={styles.name}>&nbsp;ES6</p></div>
+                        <div className={this.state.active3 && styles.nameDiv}><p style={jsCircle} className={styles.name}>ES6</p></div>
                     </div>
                     <div style={bs} className={`${styles.skill}`} onClick={() => this.setState({active4: !this.state.active4})}>
                         <img className={this.state.active4 && styles.img || styles.nameDiv} src={bootstrap}></img>
-                        <div className={this.state.active4 && styles.nameDiv}><p style={bs} className={styles.name}>&nbsp;&nbsp;B4&nbsp;</p></div>
+                        <div className={this.state.active4 && styles.nameDiv}><p style={bs} className={styles.name}>B4</p></div>
                     </div>
                     <div style={react} className={`${styles.skill}`} onClick={() => this.setState({active5: !this.state.active5})}>
                         <img className={this.state.active5 && styles.img || styles.nameDiv} src={reactIcon}></img>
@@ -140,7 +140,7 @@ class Skills extends React.Component {
                 <div className={styles.row}>
                     <div style={csharp} className={`${styles.skill}`} onClick={() => this.setState({active7: !this.state.active7})}>
                         <img className={this.state.active7 && styles.img || styles.nameDiv} src={csharpIcon}></img>
-                        <div className={this.state.active7 && styles.nameDiv}><p style={csharp} className={styles.name}>&nbsp;&nbsp;C#&nbsp;</p></div>
+                        <div className={this.state.active7 && styles.nameDiv}><p style={csharp} className={styles.name}>C#</p></div>
                     </div>
                     <div style={python} className={`${styles.skill}`} onClick={() => this.setState({active8: !this.state.active8})}>
                         <img className={this.state.active8 && styles.img || styles.nameDiv} src={pythonIcon}></img>
@@ -152,7 +152,7 @@ class Skills extends React.Component {
                 <div className={styles.row}>
                     <div style={git} className={`${styles.skill}`} onClick={() => this.setState({active9: !this.state.active9})}>
                         <img className={this.state.active9 && styles.img || styles.nameDiv} src={gitIcon}></img>
-                        <div className={this.state.active9 && styles.nameDiv}><p style={git} className={styles.name}>&nbsp;&nbsp;Git&nbsp;</p></div>
+                        <div className={this.state.active9 && styles.nameDiv}><p style={git} className={styles.name}>Git</p></div>
                     </div>
                     <div style={dotnetcore} className={`${styles.skill}`} onClick={() => this.setState({active10: !this.state.active10})}>
                         <img className={this.state.active10 && styles.img || styles.nameDiv} src={dotnetcoreIcon}></img>

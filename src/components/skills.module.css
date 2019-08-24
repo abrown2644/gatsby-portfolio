@@ -45,6 +45,12 @@
     overflow: hidden;
     -webkit-transition: all .2s; /* Safari */
     transition: all .2s,;
+    box-shadow: 5px 3px rgba(0, 0, 0, 0.116);
+    -webkit-animation: comeIn .8s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: comeIn .8s; /* Firefox < 16 */
+    -ms-animation: comeIn .8s; /* Internet Explorer */
+    -o-animation: comeIn .8s; /* Opera < 12.1 */
+    animation: comeIn .8s;
 }
 
 .skill:hover {
@@ -107,17 +113,6 @@
     animation: fadein 1s;
 }
 
-.rotate {
-    -webkit-animation:spin .1s linear;
-    -moz-animation:spin .1s linear;
-    animation:spin .1s linear;
-}
-
-/* Rotate animation */
-@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
-@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
-
 /* fade in animation */
 @keyframes fadein {
     from { opacity: 0; }
@@ -146,6 +141,105 @@
 @-o-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
+}
+
+/* Come in */
+@keyframes comeIn {
+    0% {margin-top: 400px}
+    50% {margin-top: 0px}
+    100% {margin-top: 8px;}
+}
+
+/* Firefox < 16 */
+@-moz-keyframes comeIn {
+    0% {margin-top: 100px}
+    50% {margin-top: 10px}
+    80% {margin-top: 25px}
+    100% {margin-top: 8px;}
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes comeIn {
+    0% {margin-left: 100px}
+    50% {margin-left: 10px}
+    80% {margin-left: 25px}
+    100% {margin-left: 8px;}
+}
+
+/* Internet Explorer */
+@-ms-keyframes comeIn {
+    0% {margin-left: 100px}
+    50% {margin-left: 10px}
+    80% {margin-left: 25px}
+    100% {margin-left: 8px;}
+}
+
+/* Opera < 12.1 */
+@-o-keyframes comeIn {
+    0% {margin-left: 100px}
+    50% {margin-left: 10px}
+    80% {margin-left: 25px}
+    100% {margin-left: 8px;}
+}
+
+/* tablet */
+@media all and (max-height: 800px) {
+    .container {
+        margin-bottom: 100px;
+    }
+}
+
+
+/* phones */
+@media all and (max-width: 480px) {
+
+    .skill {
+        -webkit-animation: comeIn .8s; /* Safari, Chrome and Opera > 12.1 */
+        -moz-animation: comeIn .8s; /* Firefox < 16 */
+        -ms-animation: comeIn .8s; /* Internet Explorer */
+        -o-animation: comeIn .8s; /* Opera < 12.1 */
+        animation: comeIn .8s;
+    }
+
+    /* Come in */
+    @keyframes comeIn {
+        0% {margin-top: 400px}
+        50% {margin-top: 0px}
+        100% {margin-top: 8px;}
+    }
+
+    /* Firefox < 16 */
+    @-moz-keyframes comeIn {
+        0% {margin-top: 100px}
+        50% {margin-top: 10px}
+        80% {margin-top: 25px}
+        100% {margin-top: 8px;}
+    }
+
+    /* Safari, Chrome and Opera > 12.1 */
+    @-webkit-keyframes comeIn {
+        0% {margin-left: 100px}
+        50% {margin-left: 10px}
+        80% {margin-left: 25px}
+        100% {margin-left: 8px;}
+    }
+
+    /* Internet Explorer */
+    @-ms-keyframes comeIn {
+        0% {margin-left: 100px}
+        50% {margin-left: 10px}
+        80% {margin-left: 25px}
+        100% {margin-left: 8px;}
+    }
+
+    /* Opera < 12.1 */
+    @-o-keyframes comeIn {
+        0% {margin-left: 100px}
+        50% {margin-left: 10px}
+        80% {margin-left: 25px}
+        100% {margin-left: 8px;}
+    }
+
 }
 
 

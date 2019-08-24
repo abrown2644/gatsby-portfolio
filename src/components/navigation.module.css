@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lexend+Exa&display=swap');
 
-@media all and (min-width: 1000px) {
+@media all and (min-width: 801px) {
     
     .top {
         display: flex;
@@ -60,12 +60,11 @@
 
     .navbar li {
         display: flex;
-        padding: 15px;
+        padding: 0;
         justify-content: space-between;
-        background-color: #001a33;
+        background-color: var(--secondary);
         border-radius: 10px;
-        border: 2px solid #00284e;
-        
+        border: 1px solid var(--text);
     }
 
     .navIcons {
@@ -86,7 +85,7 @@
         margin-right: 10px;
         border-radius: 50%;
         align-self: center;
-        background-color: #001a33;
+        background-color: var(--secondary);
         border: 2px solid #002b53;
     }
     
@@ -96,8 +95,9 @@
     }
 
     .active {
-        background-color: #00ff4c;
-        border: 2px solid #01d641;
+        /* background-color: #00ff4c;
+        border: 2px solid #01d641; */
+        color: #00ff4c;
     }
 
 }
@@ -141,7 +141,7 @@
 
     .navbar {
         background-color: var(--secondary);
-        height: 80px;
+        height: 100px;
         width: 100%;
         position: fixed;
         bottom: 0;
@@ -195,6 +195,7 @@
 
     .navText {
         /* display: none; */
+        padding-bottom: 0;
     }
 
     .navbar li a:hover {
@@ -342,8 +343,9 @@
     }
 
     .active {
-        background-color: #00ff4c;
-        border: 2px solid #01d641;
+        /* background-color: #00ff4c;
+        border: 2px solid #01d641; */
+        color: #00ff4c;
     }
 
 }

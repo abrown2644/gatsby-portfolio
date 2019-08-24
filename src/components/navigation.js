@@ -10,7 +10,15 @@ import {faFolder} from "@fortawesome/free-solid-svg-icons"
 
 
 class Navigation extends React.Component {
-
+    constructor(props) {
+        super(props)
+        this.state = {
+            active1: true,
+            active2: true,
+            active3: true,
+            active4: true,
+        }
+    }
     render() {
 
         // const dot = {
@@ -49,6 +57,7 @@ class Navigation extends React.Component {
         //     }
  
         // }
+
         
         return (
             <div className={styles.container}>
@@ -60,7 +69,7 @@ class Navigation extends React.Component {
                     <p className={styles.topTitle}>Front End Web Developer</p>
                     </div>
                     <ul>
-                    <li><Link to="/"><FontAwesomeIcon icon={faHome} size="2x" className={styles.navIcons}/><p className={styles.navText}>Home</p></Link><span id="one" className={styles.dot}></span></li>
+                    <li><Link to="/"><FontAwesomeIcon icon={faHome} size="2x" className={styles.navIcons}/><p className={styles.navText} onClick={() => this.setState({active: !this.state.active})} className={this.state.active && styles.active}>Home</p></Link><span id="one" className={styles.dot}></span></li>
                     <li><Link to="about"><FontAwesomeIcon icon={faUser} size="2x" className={styles.navIcons}/><p className={styles.navText}>About</p></Link><span id="two" className={styles.dot}></span></li>
                     <li><Link to="skills"><FontAwesomeIcon icon={faPen} size="2x" className={styles.navIcons}/><p className={styles.navText}>Skills</p></Link><span id="three" className={styles.dot}></span></li>
                     <li><Link to="portfolio"><FontAwesomeIcon icon={faFolder} size="2x" className={styles.navIcons}/><p className={styles.navText}>Portfolio</p></Link><span id="four" className={styles.dot}></span></li>

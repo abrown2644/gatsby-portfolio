@@ -9,21 +9,22 @@ class About extends React.Component {
         return (
             <section id={"about"}>
                 <div className={styles.container}>
+                    <h2 className={styles.rowTitle}>Who <i>am I ?</i></h2>
                     <div className={styles.row}>
-                        <h2>Who <i>am I ?</i></h2>
-                        <p>I am Andrew, a part-time student and full time web developer. I enjoy spending long hours on the computer building things.</p>
+                        <p>Me Andrew. A part-time e-student and full time web developer. I enjoy spending long hours on the computer building websites and progressive web apps.
+                            When I am not working on a project
+                        </p>
                     </div>
 
+                    <h2 className={styles.rowTitle}>Just Work Stuff</h2>
                     <div className={styles.row}>
-                        <h2>Just Work Stuff</h2>
-                        <p>I am currently working for Synergy Networks in Fort Myers Florida. My role is to design and build responsive websites for our clients from the ground up.</p>
-                        <p>I also freelance for Webfinn, a local startup focusing on building web apps.</p>
+                        <p>I am currently working for Synergy Networks in Fort Myers Florida. My role is to design and build responsive websites for our clients from the ground up. Design, build and optimize.</p>
+                        <p>I also do freelance work for Webfinn, a startup focusing on building apps and sites for businesses.</p>
                     </div>
-
+                    
+                    <h2 className={styles.rowTitle}>Goals</h2>
                     <div className={styles.row}>
-                        <h2>Whats the plan?</h2>
-                        <p>I am currently working for Synergy Networks in Fort Myers Florida. My role is to design and build responsive websites for our clients from the ground up.</p>
-                        <p>I also freelance for Webfinn, a local startup focusing on building web apps.</p>
+                        <p>In my free time I love learning new things and implementing them in my work. A highlight of projects im working on right now include an online art store for a friend and my own web app that showcases a WW2 fighter Aces every week for those warbird junkies like myself.</p>
                     </div>
                 </div>
             </section>

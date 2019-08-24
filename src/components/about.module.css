@@ -1,11 +1,11 @@
 .container {
     display: flex;  
     flex-flow: column nowrap;
-    -webkit-animation: comeIn 1.5s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: comeIn 1.5s; /* Firefox < 16 */
-    -ms-animation: comeIn 1.5s; /* Internet Explorer */
-    -o-animation: comeIn 1.5s; /* Opera < 12.1 */
-    animation: comeIn 1.5s;
+    -webkit-animation: comeIn 1s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: comeIn 1s; /* Firefox < 16 */
+    -ms-animation: comeIn 1s; /* Internet Explorer */
+    -o-animation: comeIn 1s; /* Opera < 12.1 */
+    animation: comeIn 1s;
 }
 
 .container > * {
@@ -14,43 +14,72 @@
 }
 
 .row {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 840px;
+    background-color: #50afae;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.row .p{
+    padding: 0;
+}
+
+.rowTitle {
+    --shadow:#6edad8;
+    --inner: #50afae;
+    /* --inner: #439493; */
+    /* --shadow:#59dbd9; */
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+    color: var(--inner);
+    text-shadow:
+    -1px -1px 0 var(--shadow),
+    1px -1px 0 var(--shadow),
+    -1px 1px 0 var(--shadow),
+    1px 1px 0 var(--shadow);
 }
 
 @keyframes comeIn {
     0% {margin-top: 1000px}
     50% {margin-top: -15px}
-    80% {margin-top: 10px}
     100% {margin-top: 0px;}
 }
 
 /* Firefox < 16 */
 @-moz-keyframes comeIn {
-    0% {margin-top: 2000px}
-    50% {margin-top: 10px}
-    80% {margin-top: 30px}
+    0% {margin-top: 1000px}
+    50% {margin-top: -15px}
     100% {margin-top: 0px;}
 }
 
 /* Safari, Chrome and Opera > 12.1 */
 @-webkit-keyframes comeIn {
-    0% {margin-top: 2000px}
-    50% {margin-top: 10px}
-    80% {margin-top: 60px}
-    100% {margin-top: 50px;}
+    0% {margin-top: 1000px}
+    50% {margin-top: -15px}
+    100% {margin-top: 0px;}
 }
 
 /* Internet Explorer */
 @-ms-keyframes comeIn {
-    0% {margin-top: 2000px}
-    50% {margin-top: 10px}
-    80% {margin-top: 60px}
-    100% {margin-top: 50px;}
+    0% {margin-top: 1000px}
+    50% {margin-top: -15px}
+    100% {margin-top: 0px;}
 }
 
 /* Opera < 12.1 */
 @-o-keyframes comeIn {
-    0% {margin-top: 2000px}
-    50% {margin-top: 10px}
-    80% {margin-top: 60px}
-    100% {margin-top: 50px;}
+    0% {margin-top: 1000px}
+    50% {margin-top: -15px}
+    100% {margin-top: 0px;}
+}
+
+
+@media all and (max-height: 800px) {
+    .container {
+        margin-bottom: 100px;
+    }
 }

@@ -302,7 +302,7 @@ class Portfolio extends React.Component {
                         <div id="screen12" className={styles.tech} style={techStyle}>
                             <p>My role: All me!</p>
                             <p>• Progressive web app i'm building</p>
-                            <p>&nbsp;&nbsp;in React</p>
+                            <p>&nbsp;&nbsp;with React and python</p>
                             <p>• Dynamic content</p> 
                         </div>
                         <img id="screen11" className={styles.image} style={imageStyle} src={site6}></img>
@@ -371,6 +371,7 @@ class Portfolio extends React.Component {
                         <div id="screen18" className={styles.tech} style={techStyle}>
                             <p>My role: Designer</p>
                             <p>• Designed the sites UI / layout</p>
+                            <p>• WordPress site</p>
                         </div>
                         <img id="screen17" className={styles.image} style={imageStyle} src={site9}></img>
                         </a>
@@ -392,6 +393,7 @@ class Portfolio extends React.Component {
                         <div id="screen20" className={styles.tech} style={techStyle}>
                             <p>My role: Designer</p>
                             <p>• Designed the site layout</p>
+                            <p>• WordPress site</p>
                         </div>
                         <img id="screen19" className={styles.image} style={imageStyle} src={site10}></img>
                         </a>

@@ -300,10 +300,6 @@
         -webkit-tap-highlight-color: red;
     }
 
-    /* .navbar li:active {
-        background-color: black;
-    } */
-
     .break {
         display: flex;
         padding: 0;

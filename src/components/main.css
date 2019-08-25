@@ -12,10 +12,16 @@ html, body {
     --accent: #2afc98;
     --bg: #5bc0be;
     --text: #eaf9fa; */
-    --primary:#5bc0be;
+    --primary:#5bc0be; /*#119da4*/ /*<-- maybe this one */
     --secondary: #0d1f2d;
-    --accent:#3cfa75;
-    --text: #eaf9fa;
+    --accent:#20fc8f;
+    --text: #ede6e3;
+
+    /* another scheme? */
+    --primary2: #5bc0be;
+    --secondary2: #0d1f2d;
+    --accent2: #2afc98;
+    --bg2: #476a6f;
 }
     /* possible scheme?
     --primary:#272d2d;
@@ -23,11 +29,7 @@ html, body {
     --accent:#3cfa75;
     --text: ; */
 
-    /* another scheme?
-    --primary: #5bc0be;
-    --secondary: #0d1f2d;
-    --accent: #2afc98;
-    --bg: #476a6f; */
+    
 
 @media all and (min-width:800px) {
     main {

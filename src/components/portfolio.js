@@ -30,8 +30,6 @@ class Portfolio extends React.Component {
             let screen1 = document.getElementById('screen1');
             let screen2 = document.getElementById('screen2');
 
-            console.log('button works');
-
             if (screen1.style.display === "none") {
                 screen1.style.display = "block"
                 screen2.style.display = "none"
@@ -44,8 +42,6 @@ class Portfolio extends React.Component {
         function changeTV2() {
             let screen3 = document.getElementById('screen3');
             let screen4 = document.getElementById('screen4');
-
-            console.log('button works');
 
             if (screen3.style.display === "none") {
                 screen3.style.display = "block"
@@ -61,8 +57,6 @@ class Portfolio extends React.Component {
             let screen5 = document.getElementById('screen5');
             let screen6 = document.getElementById('screen6');
 
-            console.log('button works');
-
             if (screen5.style.display === "none") {
                 screen5.style.display = "block"
                 screen6.style.display = "none"
@@ -76,8 +70,6 @@ class Portfolio extends React.Component {
         function changeTV4() {
             let screen7 = document.getElementById('screen7');
             let screen8 = document.getElementById('screen8');
-
-            console.log('button works');
 
             if (screen7.style.display === "none") {
                 screen7.style.display = "block"
@@ -93,8 +85,6 @@ class Portfolio extends React.Component {
             let screen9 = document.getElementById('screen9');
             let screen10 = document.getElementById('screen10');
 
-            console.log('button works');
-
             if (screen9.style.display === "none") {
                 screen9.style.display = "block"
                 screen10.style.display = "none"
@@ -108,8 +98,6 @@ class Portfolio extends React.Component {
         function changeTV6() {
             let screen11 = document.getElementById('screen11');
             let screen12 = document.getElementById('screen12');
-
-            console.log('button works');
 
             if (screen11.style.display === "none") {
                 screen11.style.display = "block"
@@ -125,8 +113,6 @@ class Portfolio extends React.Component {
             let screen13 = document.getElementById('screen13');
             let screen14 = document.getElementById('screen14');
 
-            console.log('button works');
-
             if (screen13.style.display === "none") {
                 screen13.style.display = "block"
                 screen14.style.display = "none"
@@ -140,8 +126,6 @@ class Portfolio extends React.Component {
         function changeTV8() {
             let screen15 = document.getElementById('screen15');
             let screen16 = document.getElementById('screen16');
-
-            console.log('button works');
 
             if (screen15.style.display === "none") {
                 screen15.style.display = "block"
@@ -157,8 +141,6 @@ class Portfolio extends React.Component {
             let screen17 = document.getElementById('screen17');
             let screen18 = document.getElementById('screen18');
 
-            console.log('button works');
-
             if (screen17.style.display === "none") {
                 screen17.style.display = "block"
                 screen18.style.display = "none"
@@ -172,8 +154,6 @@ class Portfolio extends React.Component {
         function changeTV10() {
             let screen19 = document.getElementById('screen19');
             let screen20 = document.getElementById('screen20');
-
-            console.log('button works');
 
             if (screen19.style.display === "none") {
                 screen19.style.display = "block"

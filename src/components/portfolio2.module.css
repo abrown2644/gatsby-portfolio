@@ -186,6 +186,7 @@
 }
 
 /* tablet */
+@media all and (max-height: 900px) {
     .container {
         margin-bottom: 100px;
     }

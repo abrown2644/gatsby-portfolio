@@ -42,9 +42,11 @@ class Navigation extends React.Component {
                 <nav className={styles.navbar}>
                     <div className={styles.top}>
                     {/* <Social/> */}
+                    <h2 className={styles.logo}>ab</h2>
                     <img src={avatar} className={styles.avatar} alt="Andrew Brown"></img>
                     <p className={styles.topName}>Andrew Brown</p>
                     <p className={styles.topTitle}>Front End Web Developer</p>
+                    <p className={styles.topTitleSmall}>Front End Web Dev</p>
                     </div>
                     <ul>
                     <li><Link to="/" activeStyle={activeNav} style={navItem}><FontAwesomeIcon icon={faHome} size="2x" className={styles.navIcons}/><p className={styles.navText} className={`${styles.navText}`}>Home</p></Link><span id="one" className={styles.dot}></span></li>

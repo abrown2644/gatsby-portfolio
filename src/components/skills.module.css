@@ -8,6 +8,7 @@
     background-color: #50afae;
     border-radius: 10px;
     margin-bottom: 30px;
+    max-width: 600px;
     overflow: hidden;
 }
 
@@ -54,9 +55,10 @@
 }
 
 .skill:hover {
-    max-height: 90px;
-    max-width: 90px;
-
+    /* max-height: 90px;
+    max-width: 90px; */
+    margin-top: 25px;
+    /* transform: skew(-0.06turn, 18deg); */
 }
 /* .skill:hover .name {
     display: flex;
@@ -183,7 +185,7 @@
 }
 
 /* tablet */
-@media all and (max-height: 800px) {
+@media all and (max-width: 800px) {
     .container {
         margin-bottom: 100px;
     }

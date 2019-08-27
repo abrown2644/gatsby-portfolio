@@ -111,6 +111,10 @@
     animation: fadein 1s;
 }
 
+.techSiteName {
+    text-decoration: underline;
+}
+
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
@@ -164,17 +168,16 @@
     height: 36px;
     width: 80%;
     background-color: var(--secondary);
-    border: 1px solid #2e5d9b;
+    border: 1px solid #254259;
     border-radius: 10px;
     cursor: pointer;
-    color: #a6bbd6;
+    color: var(--text);
     transition: background-color .5s;
 }
 
 .cardBtn:hover {
-    background-color: var(--primary);
-    border: 1px solid rgba(0, 0, 0, 0);
-    color: var(--text);
+    background-color: #254259;
+    border: 1px solid #254259;
 }
 
 .cardFakeBtn {
@@ -186,7 +189,7 @@
 }
 
 /* tablet */
-@media all and (max-height: 900px) {
+@media all and (max-width: 800px) {
     .container {
         margin-bottom: 100px;
     }

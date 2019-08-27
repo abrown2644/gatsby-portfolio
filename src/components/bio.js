@@ -9,7 +9,7 @@ class Bio extends React.Component {
     render() {
         return(
             <div className={styles.container}>
-             <p className={styles.bioText}>I'm a web developer who builds fast, responsive web apps with a focus on intuitive design. Shoot me an email, find me on LinkedIn or download my resume. Talk to you soon!</p>
+             <p className={styles.bioText}>I'm a web developer who builds fast, responsive web apps with a focus on intuitive design. Send me an email, find me on LinkedIn or download my resume. Talk to you soon!</p>
              <div className={styles.bioButtons}>
                  <ul>
                      <li id={styles.linkOne} ><a href="mailto:abrown2644@gmail.com"><FontAwesomeIcon icon={faEnvelope} size="3x" className={styles.bioIcon} title={"Email Me"} alt="Email Me"/></a><p className={styles.bioButtonsText}>Email Me</p></li>

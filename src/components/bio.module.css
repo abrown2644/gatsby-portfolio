@@ -9,11 +9,12 @@
     
     .bioText {
         max-width: 840px;
-        -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
-        -moz-animation: fadein 1s; /* Firefox < 16 */
-        -ms-animation: fadein 1s; /* Internet Explorer */
-        -o-animation: fadein 1s; /* Opera < 12.1 */
-        animation: fadein 1s;
+        -webkit-animation: slideIn .5s; /* Safari, Chrome and Opera > 12.1 */
+        -moz-animation: slideIn .5s; /* Firefox < 16 */
+        -ms-animation: slideIn .5s; /* Internet Explorer */
+        -o-animation: slideIn .5s; /* Opera < 12.1 */
+        animation: slideIn .5s;
+        animation-iteration-count: 1;
     }
 
     .bioButtons {
@@ -48,37 +49,37 @@
     }
     
     #linkOne {
-        -webkit-animation: slideIn 1s; /* Safari, Chrome and Opera > 12.1 */
+        -webkit-animation: slideIn .5s; /* Safari, Chrome and Opera > 12.1 */
         -moz-animation: slideIn 1s; /* Firefox < 16 */
         -ms-animation: slideIn 1s; /* Internet Explorer */
         -o-animation: slideIn 1s; /* Opera < 12.1 */
-        animation: slideIn 1s;
+        animation: slideIn .4s;
         animation-iteration-count: 1;
     }
     
     #linkTwo {
-        -webkit-animation: slideIn 1.2s; /* Safari, Chrome and Opera > 12.1 */
+        -webkit-animation: slideIn .8s; /* Safari, Chrome and Opera > 12.1 */
         -moz-animation: slideIn 1.2s; /* Firefox < 16 */
         -ms-animation: slideIn 1.2s; /* Internet Explorer */
         -o-animation: slideIn 1.2s; /* Opera < 12.1 */
-        animation: slideIn 1.2s;
+        animation: slideIn .6s;
         animation-iteration-count: 1;
     }
     
     #linkThree {
-        -webkit-animation: slideIn 1.4s; /* Safari, Chrome and Opera > 12.1 */
+        -webkit-animation: slideIn 1.2s; /* Safari, Chrome and Opera > 12.1 */
         -moz-animation: slideIn 1.4s; /* Firefox < 16 */
         -ms-animation: slideIn 1.4s; /* Internet Explorer */
         -o-animation: slideIn 1.4s; /* Opera < 12.1 */
-        animation: slideIn 1.4s;
+        animation: slideIn .8s;
         animation-iteration-count: 1;
     }
     
     @keyframes slideIn {
-        0% {margin-left: 300px; opacity: 0}
-        50% {opacity: 0}
-        80% {margin-left: -30px}
-        100% {margin-left: 0;}
+        0% {margin-top: 300px; opacity: 0}
+        /* 50% {opacity: 0} */
+        80% {margin-top: -16px}
+        100% {margin-top: 0;}
      }
      
      /* Firefox < 16 */

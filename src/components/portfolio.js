@@ -172,6 +172,7 @@ class Portfolio extends React.Component {
                 <div className={styles.card}>
                     <a href={"http://www.wraplabz.com/"} target={"_blank"} rel={"noopen"}>
                         <div id="screen2" className={styles.tech} style={techStyle}>
+                            <p className={styles.techSiteName}>wraplabz.com</p>
                             <p>My role: Front End</p>
                             <p>• Built out pages</p>
                             <p>• .NET Core</p>
@@ -194,6 +195,7 @@ class Portfolio extends React.Component {
                 <div className={styles.card}>
                     <a href={"http://www.signsnearby.com/"} target={"_blank"} rel={"noopen"}>
                         <div id="screen4" className={styles.tech} style={techStyle}>
+                            <p className={styles.techSiteName}>signsnearby.com</p>
                             <p>My role: Front End</p>
                             <p>• Built pages</p>
                             <p>• .NET Core</p>
@@ -216,6 +218,7 @@ class Portfolio extends React.Component {
                 <div className={styles.card}>
                     <a href={"http://mentalhealthfl.com/"} target={"_blank"} rel={"noopen"}>
                         <div id="screen6" className={styles.tech} style={techStyle}>
+                            <p className={styles.techSiteName}>mentalhealthfl.com</p>
                             <p>My role: Front End</p>
                             <p>• Built pages</p>
                             <p>• .NET Core</p>
@@ -236,8 +239,9 @@ class Portfolio extends React.Component {
 
                 {/* TV four */}
                 <div className={styles.card}>
-                    <a href={"http://www.wraplabz.com/"} target={"_blank"} rel={"noopen"}>
+                    <a href={"/"} target={"_blank"} rel={"noopen"}>
                         <div id="screen8" className={styles.tech} style={techStyle}>
+                            <p className={styles.techSiteName}>moroscuba.com</p>
                             <p>My role: The friend that codes</p>
                             <p>• WIP static site for a friend</p>
                             <p>• Bootstrap site</p>
@@ -280,6 +284,7 @@ class Portfolio extends React.Component {
                 <div className={styles.card}>
                     <a href={"http://www.wraplabz.com/"} target={"_blank"} rel={"noopen"}>
                         <div id="screen12" className={styles.tech} style={techStyle}>
+                            <p className={styles.techSiteName}>warbird.wiki</p>
                             <p>My role: All me!</p>
                             <p>• Progressive web app i'm building</p>
                             <p>&nbsp;&nbsp;with React and python</p>
@@ -303,10 +308,11 @@ class Portfolio extends React.Component {
                 <div className={styles.card}>
                     <a href={"http://4trophycase.com/"} target={"_blank"} rel={"noopen"}>
                         <div id="screen14" className={styles.tech} style={techStyle}>
+                            <p className={styles.techSiteName}>4trophycase.com</p>
                             <p>My role: Front End</p>
                             <p>• Designed</p>
                             <p>• Built</p>
-                            <p>• Bootstrap</p>
+                            <p>• Bootstrap site</p>
                         </div>
                         <img id="screen13" className={styles.image} style={imageStyle} src={site7}></img>
                         </a>
@@ -326,6 +332,7 @@ class Portfolio extends React.Component {
                 <div className={styles.card}>
                     <a href={"http://test.snworks.com/iplgroup/"} target={"_blank"} rel={"noopen"}>
                         <div id="screen16" className={styles.tech} style={techStyle}>
+                            <p className={styles.techSiteName}>theiplgroup.com</p>
                             <p>My role: Front End</p>
                             <p>• WIP site</p>
                             <p>• Designed</p>
@@ -349,6 +356,7 @@ class Portfolio extends React.Component {
                 <div className={styles.card}>
                     <a href={"https://www.gannonsantiques.com/"} target={"_blank"} rel={"noopen"}>
                         <div id="screen18" className={styles.tech} style={techStyle}>
+                            <p className={styles.techSiteName}>gannonsantiques.com</p>
                             <p>My role: Designer</p>
                             <p>• Designed the sites UI / layout</p>
                             <p>• WordPress site</p>
@@ -371,6 +379,7 @@ class Portfolio extends React.Component {
                 <div className={styles.card}>
                     <a href={"https://www.becerraconstruction.com/"} target={"_blank"} rel={"noopen"}>
                         <div id="screen20" className={styles.tech} style={techStyle}>
+                            <p className={styles.techSiteName}>becerraconstruction.com</p>
                             <p>My role: Designer</p>
                             <p>• Designed the site layout</p>
                             <p>• WordPress site</p>

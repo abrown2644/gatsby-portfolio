@@ -9,12 +9,18 @@ import Bio from "../components/bio"
 import '../components/main.css'
 
 
-const IndexPage = () => (
-  <Container>
-    <SEO title="Home" />
-    <Intro lineOne="I'm Andrew!" lineTwo="" cursor1="█" cursor2=""/>
-    <Bio/>
-  </Container>
-)
+class IndexPage extends React.Component {
 
+  render() {
+
+    return ( 
+      <Container>
+        <SEO title="Home" />
+        <Intro lineOne="Hi I'm Andrew!" lineTwo="" cursor1="█" cursor2=""/>
+        <Bio/>
+      </Container>
+    )
+  }
+}
+  
 export default IndexPage

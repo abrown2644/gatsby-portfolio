@@ -29,7 +29,7 @@
 
 .rowTitle {
     --shadow:#6edad8;
-    --inner: #50afae;
+    --inner: #469998;
     /* --inner: #439493; */
     /* --shadow:#59dbd9; */
     font-size: 40px;
@@ -78,7 +78,7 @@
 }
 
 
-@media all and (max-height: 800px) {
+@media all and (max-width: 800px) {
     .container {
         margin-bottom: 100px;
     }

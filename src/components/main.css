@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500|Teko&display=swap');
+
 html, body {
     background-color: var(--primary);
     /* screen scrolly no no */
@@ -6,13 +8,13 @@ html, body {
 
 * {
     color: var(--text);
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    /* --primary: #5bc0be;
+    font-family: 'Montserrat', sans-serif;   
+     /* --primary: #5bc0be;
     --secondary: #a3c4bc;
     --accent: #2afc98;
     --bg: #5bc0be;
     --text: #eaf9fa; */
-    --primary:#5bc0be; /*#119da4*/ /*<-- maybe this one */
+     --primary: #40798c; /*#119da4 #5eb1bf maybe these ones  */
     --secondary: #0d1f2d;
     --accent:#20fc8f;
     --text: #ede6e3;

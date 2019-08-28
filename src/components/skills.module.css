@@ -5,7 +5,7 @@
 .row {
     display: flex;
     flex-flow: row wrap;
-    background-color: #50afae;
+    background-color: #254259;
     border-radius: 10px;
     margin-bottom: 30px;
     max-width: 600px;
@@ -17,19 +17,20 @@
 }
 
 .rowTitle {
-    --shadow:#6edad8;
-    --inner: #50afae;
+    --shadow: var(--secondary);
+    --inner: #254259;
     /* --inner: #439493; */
     /* --shadow:#59dbd9; */
     font-size: 40px;
-    font-weight: 800;
+    font-weight: bold;
+    letter-spacing: -3px;
     line-height: normal;
     color: var(--inner);
     text-shadow:
-    -1px -1px 0 var(--shadow),
+    /* -1px -1px 0 var(--shadow),
     1px -1px 0 var(--shadow),
     -1px 1px 0 var(--shadow),
-    1px 1px 0 var(--shadow);
+    1px 1px 0 var(--shadow); */
 }
 
 .skill {

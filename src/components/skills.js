@@ -36,7 +36,6 @@ class Skills extends React.Component {
     }//end constructor
 
     render() {
-        const rotate = this.state.rotate
 
         const jsCircle = {
             backgroundColor: "#f0db4f",

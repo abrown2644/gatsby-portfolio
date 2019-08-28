@@ -3,7 +3,6 @@
   /* @media all and (min-width: 800px) { */
     .intro {
       /* display: flex; */
-      letter-spacing: -1px;
       margin: auto;
       text-decoration: none;
       /* padding:0 0 0 250px; */
@@ -18,7 +17,7 @@
     /*AUTO TYPE ANIMATION*/
     .introText p {
       color: #0c0c0c; 
-      font-family: 'Teko', sans-serif;
+      font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
       font-weight: 900;
       font-size: 3.5em;
       margin: 10px 0 0 10px;
@@ -78,10 +77,12 @@
   /* } */
 
   /* Phones */
-  @media all and (max-width: 580px) {
+  @media all and (max-width: 480px) {
     .intro {
+      /* display: flex; */
       margin: auto;
       text-decoration: none;
+      /* padding:0 0 0 250px; */
       justify-content: center;
       overflow: hidden;
       height: 80px;
@@ -153,7 +154,7 @@
     /*END AUTO TYPE ANIMATION*/
   }
 
-  @media all and (max-width: 410px) {
+  @media all and (max-width: 330px) {
     .intro {
       /* display: flex; */
       margin: auto;
@@ -229,7 +230,7 @@
     /*END AUTO TYPE ANIMATION*/
   }
 
-  @media all and (max-width: 330px) {
+  @media all and (max-width: 280px) {
     .intro {
       /* display: flex; */
       margin: auto;
@@ -303,29 +304,4 @@
         background: black;
       }
     /*END AUTO TYPE ANIMATION*/
-  }
-
-  @media all and (max-width: 300px) {
-    .intro {
-      /* display: flex; */
-      margin: auto;
-      text-decoration: none;
-      /* padding:0 0 0 250px; */
-      justify-content: center;
-      overflow: hidden;
-    }
-
-    .introText p {
-      color: #0c0c0c; 
-      font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
-      font-weight: 900;
-      font-size: 1.7em;
-      margin: 10px 0 0 10px;
-      white-space: nowrap;
-      overflow: hidden;
-      width: 12em;
-      padding: 20px 0 0 0;
-      animation: type 3s steps(50, end);
-      /* text-shadow: 0 0 4px rgb(80, 80, 80), 0 0 2px rgba(2, 2, 2, 0.719);  */
-      }
   }

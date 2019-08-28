@@ -24,22 +24,19 @@
     }
 
     .topName {
-        font-size: 1.2em;
-        letter-spacing: -2px;
+        font-size: 1em;
         margin: 0;
-        padding-bottom: 8px;
+        padding-bottom: 0;
         display: none;
-        font-family: 'Lexend Exa', sans-serif;
     }
 
     .topTitle {
-        font-size: 1.1em;
+        font-size: .8em;
         margin-top: 0;
         padding-top: 0;
         font-weight: lighter;
-        color: var(--text);
+        color: var(--secondary);
         display: none;
-        font-family: 'Teko', sans-serif;
     }
 
     .navbar {
@@ -116,10 +113,14 @@
     }
 
     .topName {
+        font-size: 1em;
+        margin: 0;
+        padding-bottom: 0;
         display: none;
     }
 
     .topTitle {
+        font-size: .8em;
         margin-top: 0;
         padding-top: 0;
         font-weight: lighter;
@@ -226,23 +227,28 @@
 
     .topName {
         display: none;
+        font-size: 1em;
+        margin: 0;
+        padding: 0;
+        margin-top: 0;
     }
 
     .topTitle {
         display: none;
+        font-size: .8em;
         margin-top: 0;
         padding: 0;
         font-weight: lighter;
+        color: var(--primary);
     }
 
     .topTitleSmall {
         display: block;
-        font-size: 1.2em;
+        font-size: .8em;
         margin-top: 0;
         padding: 0;
         font-weight: lighter;
-        color: var(--text);
-        font-family: 'Teko', sans-serif;
+        color: var(--primary);
     }
 
     .navbar {
@@ -337,12 +343,19 @@
 
     .topName {
         display: block;
+        font-size: 1em;
+        margin: 0;
+        /* padding: 0; */
+        /* margin-top: 0; */
     }
 
     .topTitle {
         display: block;
+        font-size: .8em;
         margin-top: 0;
         padding-top: 0;
+        font-weight: lighter;
+        color: var(--primary);
     }
     
     .topTitleSmall {

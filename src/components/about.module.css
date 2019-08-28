@@ -17,7 +17,7 @@
     display: flex;
     flex-flow: row wrap;
     max-width: 840px;
-    background-color: #254259;
+    background-color: #50afae;
     border-radius: 10px;
     margin-bottom: 30px;
     overflow: hidden;
@@ -28,18 +28,19 @@
 }
 
 .rowTitle {
-    --shadow: var(--secondary);
-    --inner: #254259;
+    --shadow:#6edad8;
+    --inner: #469998;
+    /* --inner: #439493; */
+    /* --shadow:#59dbd9; */
     font-size: 40px;
-    font-weight: bold;
-    letter-spacing: -3px;
-    color: var(--inner);
+    font-weight: 800;
     line-height: normal;
+    color: var(--inner);
     text-shadow:
-    /* -1px -1px 0 var(--shadow),
+    -1px -1px 0 var(--shadow),
     1px -1px 0 var(--shadow),
     -1px 1px 0 var(--shadow),
-    1px 1px 0 var(--shadow); */
+    1px 1px 0 var(--shadow);
 }
 
 @keyframes comeIn {

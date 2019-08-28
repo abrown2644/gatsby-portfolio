@@ -168,7 +168,7 @@
     height: 36px;
     width: 80%;
     background-color: var(--secondary);
-    border: 2px solid #254259;
+    border: 1px solid #254259;
     border-radius: 10px;
     cursor: pointer;
     color: var(--text);

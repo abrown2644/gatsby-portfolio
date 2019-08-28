@@ -16,7 +16,7 @@ class IndexPage extends React.Component {
     return ( 
       <Container>
         <SEO title="Home" />
-        <Intro lineOne="Hi, I'm Andrew!" lineTwo="" cursor1="█" cursor2=""/>
+        <Intro lineOne="Hi I'm Andrew!" lineTwo="" cursor1="█" cursor2=""/>
         <Bio/>
       </Container>
     )

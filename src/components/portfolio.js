@@ -170,7 +170,7 @@ class Portfolio extends React.Component {
             <div className={styles.container}>
                 {/* TV one */}
                 <div className={styles.card}>
-                    <a href={"http://www.wraplabz.com/"} target={"_blank"} rel={"noopen"}>
+                    <a href={"http://www.wraplabz.com/"} target={"_blank"} rel={"noopener"}>
                         <div id="screen2" className={styles.tech} style={techStyle}>
                             <p className={styles.techSiteName}>wraplabz.com</p>
                             <p>My role: Front End</p>
@@ -193,7 +193,7 @@ class Portfolio extends React.Component {
 
                 {/* TV two */}
                 <div className={styles.card}>
-                    <a href={"http://www.signsnearby.com/"} target={"_blank"} rel={"noopen"}>
+                    <a href={"http://www.signsnearby.com/"} target={"_blank"} rel={"noopener"}>
                         <div id="screen4" className={styles.tech} style={techStyle}>
                             <p className={styles.techSiteName}>signsnearby.com</p>
                             <p>My role: Front End</p>
@@ -216,7 +216,7 @@ class Portfolio extends React.Component {
 
                 {/* TV three */}
                 <div className={styles.card}>
-                    <a href={"http://mentalhealthfl.com/"} target={"_blank"} rel={"noopen"}>
+                    <a href={"http://mentalhealthfl.com/"} target={"_blank"} rel={"noopener"}>
                         <div id="screen6" className={styles.tech} style={techStyle}>
                             <p className={styles.techSiteName}>mentalhealthfl.com</p>
                             <p>My role: Front End</p>
@@ -239,12 +239,13 @@ class Portfolio extends React.Component {
 
                 {/* TV four */}
                 <div className={styles.card}>
-                    <a href={"/"} target={"_blank"} rel={"noopen"}>
+                    <a>
                         <div id="screen8" className={styles.tech} style={techStyle}>
                             <p className={styles.techSiteName}>moroscuba.com</p>
                             <p>My role: The friend that codes</p>
                             <p>• WIP static site for a friend</p>
                             <p>• Bootstrap site</p>
+                            <p>• No link yet. Soon!</p>
                         </div>
                         <img id="screen7" className={styles.image} style={imageStyle} src={site4}></img>
                         </a>
@@ -282,7 +283,7 @@ class Portfolio extends React.Component {
 
                 {/* TV six */}
                 <div className={styles.card}>
-                    <a href={"http://www.wraplabz.com/"} target={"_blank"} rel={"noopen"}>
+                    <a href={"http://www.wraplabz.com/"} target={"_blank"} rel={"noopener"}>
                         <div id="screen12" className={styles.tech} style={techStyle}>
                             <p className={styles.techSiteName}>warbird.wiki</p>
                             <p>My role: All me!</p>
@@ -306,7 +307,7 @@ class Portfolio extends React.Component {
 
                 {/* TV seven */}
                 <div className={styles.card}>
-                    <a href={"http://4trophycase.com/"} target={"_blank"} rel={"noopen"}>
+                    <a href={"http://4trophycase.com/"} target={"_blank"} rel={"noopener"}>
                         <div id="screen14" className={styles.tech} style={techStyle}>
                             <p className={styles.techSiteName}>4trophycase.com</p>
                             <p>My role: Front End</p>
@@ -330,7 +331,7 @@ class Portfolio extends React.Component {
 
                 {/* TV eight */}
                 <div className={styles.card}>
-                    <a href={"http://test.snworks.com/iplgroup/"} target={"_blank"} rel={"noopen"}>
+                    <a href={"http://test.snworks.com/iplgroup/"} target={"_blank"} rel={"noopener"}>
                         <div id="screen16" className={styles.tech} style={techStyle}>
                             <p className={styles.techSiteName}>theiplgroup.com</p>
                             <p>My role: Front End</p>
@@ -354,7 +355,7 @@ class Portfolio extends React.Component {
 
                 {/* TV nine */}
                 <div className={styles.card}>
-                    <a href={"https://www.gannonsantiques.com/"} target={"_blank"} rel={"noopen"}>
+                    <a href={"https://www.gannonsantiques.com/"} target={"_blank"} rel={"noopener"}>
                         <div id="screen18" className={styles.tech} style={techStyle}>
                             <p className={styles.techSiteName}>gannonsantiques.com</p>
                             <p>My role: Designer</p>
@@ -377,7 +378,7 @@ class Portfolio extends React.Component {
 
                 {/* TV ten */}
                 <div className={styles.card}>
-                    <a href={"https://www.becerraconstruction.com/"} target={"_blank"} rel={"noopen"}>
+                    <a href={"https://www.becerraconstruction.com/"} target={"_blank"} rel={"noopener"}>
                         <div id="screen20" className={styles.tech} style={techStyle}>
                             <p className={styles.techSiteName}>becerraconstruction.com</p>
                             <p>My role: Designer</p>

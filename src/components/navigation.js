@@ -28,7 +28,7 @@ class Navigation extends React.Component {
             padding: "3px",
             justifyContent: "space-between",
             backgroundColor: "#0d1f2d",
-            borderRadius: "10px",
+            borderRadius: "8px",
             border: "2px solid #254259",
         }
 

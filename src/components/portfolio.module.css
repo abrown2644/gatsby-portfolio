@@ -17,10 +17,7 @@
         align-content: center;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.200), 0 6px 16px 0 rgba(0, 0, 0, 0.200);
     }
-
-    .card:hover {
-    }
-
+    
     .card a {
         text-decoration: none;
     }

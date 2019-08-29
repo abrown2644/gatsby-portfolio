@@ -77,6 +77,10 @@
         -webkit-tap-highlight-color: red;
     }
 
+    /* .navbar li:hover {
+        background-color: var(--text);
+    } */
+
     .break {
         display: flex;
         padding: 0;
@@ -286,6 +290,10 @@
         border-radius: 10px;
     }
 
+    .navbar li:hover {
+        background-color: var(--text);
+    }
+
     .navIcons {
         display: none;
         margin: auto;
@@ -388,6 +396,10 @@
         margin: 5px;
         width: 190px;
         border-radius: 10px;
+    }
+
+    .navbar li:hover {
+        background-color: var(--text);
     }
 
     .navIcons {

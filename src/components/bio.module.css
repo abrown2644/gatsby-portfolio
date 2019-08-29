@@ -4,7 +4,11 @@
     }
     
     li {
+        display: flex;
+        flex-flow: column wrap;
         text-align: center;
+        justify-content: center;
+        align-items: center;
     }
     
     .bioText {

@@ -1,7 +1,4 @@
 import React from "react"
-import phone from "../images/phone.png"
-import code from "../images/code.png"
-import team from "../images/team.png"
 import styles from "../components/about.module.css"
 import { Link } from "gatsby"
 

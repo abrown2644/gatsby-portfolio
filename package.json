@@ -17,6 +17,7 @@
     "gatsby-plugin-manifest": "^2.2.9",
     "gatsby-plugin-offline": "^2.2.4",
     "gatsby-plugin-react-helmet": "^3.1.2",
+    "gatsby-plugin-s3": "^0.3.2",
     "gatsby-plugin-sass": "^2.1.3",
     "gatsby-plugin-sharp": "^2.2.18",
     "gatsby-plugin-typography": "^2.3.2",
@@ -46,6 +47,7 @@
   ],
   "license": "MIT",
   "scripts": {
+    "deploy": "gatsby-plugin-s3 deploy",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",

@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Andrew Brown`,
-    description: `Web Developer, Bootstrap • ReactJS • HTML5 • CSS3 • Javascript • C#`,
+    description: `Web Developer, React • HTML5 • CSS3 • Javascript • C# • Python`,
     author: `Andrew Brown`,
   },
   plugins: [
@@ -15,16 +15,32 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    // {
+    //   resolve: `gatsby-plugin-manifest`,
+    //   options: {
+    //     name: `gatsby-starter-default`,
+    //     short_name: `starter`,
+    //     start_url: `/`,
+    //     background_color: `#0d1f2d`,
+    //     theme_color: `#0d1f2d`,
+    //     display: `minimal-ui`,
+    //     icon: `src/images/icon-big.png`, // This path is relative to the root of the site.
+    //   },
+    // },
     {
-      resolve: `gatsby-plugin-manifest`,
+      resolve: `gatsby-plugin-s3`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
-        start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
-        icon: `src/images/icon.png`, // This path is relative to the root of the site.
+          bucketName: 'abweb.dev',
+          acl: null,
+          params: {},
+          mergeCachingParams: true,
+          generateRoutingRules: true,
+          generateRedirectObjectsForPermanentRedirects: false,
+          generateIndexPageForRedirect: true,
+          generateMatchPathRewrites: true,
+          removeNonexistentObjects: true,
+          customAwsEndpointHostname: undefined,
+          enableS3StaticWebsiteHosting: true
       },
     },
     {
@@ -36,15 +52,16 @@ module.exports = {
         {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `GatsbyJS`,
-        short_name: `GatsbyJS`,
+        name: `Andrew Brown Web Dev`,
+        short_name: `Andrew Brown`,
+        description:`This is my portfolio designed by me! Thanks for checking it out!`,
         start_url: `/`,
-        background_color: `#6b37bf`,
-        theme_color: `#6b37bf`,
+        background_color: `#0d1f2d`,
+        theme_color: `#0d1f2d`,
         // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
         // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
         display: `standalone`,
-        icon: `src/images/icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/icon-big.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

@@ -8,6 +8,7 @@ html, body {
 
 * {
     color: var(--text);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     font-family: 'Montserrat', sans-serif;   
      /* --primary: #5bc0be;
     --secondary: #a3c4bc;

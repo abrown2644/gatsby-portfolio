@@ -27,22 +27,22 @@ module.exports = {
     //     icon: `src/images/icon-big.png`, // This path is relative to the root of the site.
     //   },
     // },
-    {
-      resolve: `gatsby-plugin-s3`,
-      options: {
-          bucketName: 'abweb.dev',
-          acl: null,
-          params: {},
-          mergeCachingParams: true,
-          generateRoutingRules: true,
-          generateRedirectObjectsForPermanentRedirects: false,
-          generateIndexPageForRedirect: true,
-          generateMatchPathRewrites: true,
-          removeNonexistentObjects: true,
-          customAwsEndpointHostname: undefined,
-          enableS3StaticWebsiteHosting: true
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-s3`,
+    //   options: {
+    //       bucketName: 'abweb.dev',
+    //       acl: null,
+    //       params: {},
+    //       mergeCachingParams: true,
+    //       generateRoutingRules: true,
+    //       generateRedirectObjectsForPermanentRedirects: false,
+    //       generateIndexPageForRedirect: true,
+    //       generateMatchPathRewrites: true,
+    //       removeNonexistentObjects: true,
+    //       customAwsEndpointHostname: undefined,
+    //       enableS3StaticWebsiteHosting: true
+    //   },
+    // },
     {
       resolve: `gatsby-plugin-layout`,
       options: {

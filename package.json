@@ -47,7 +47,6 @@
   ],
   "license": "MIT",
   "scripts": {
-    "deploy": "gatsby-plugin-s3 deploy",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",

@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Andrew Brown`,
-    description: `Web Developer, React • HTML5 • CSS3 • Javascript • C# • Python`,
+    description: `Web Developer, Javascript • React • HTML5 • CSS3 • C# • Python`,
     author: `Andrew Brown`,
   },
   plugins: [
@@ -46,7 +46,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-layout`,
       options: {
-        component: require.resolve(`../gatsby-portfolio/src/components/layout.js`),
+        component: require.resolve(`src/components/layout.js`),
       },
     },
         {

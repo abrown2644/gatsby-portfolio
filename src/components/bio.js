@@ -14,7 +14,7 @@ class Bio extends React.Component {
                  <ul>
                      <li id={styles.linkOne} ><a href="mailto:abrown2644@gmail.com"><FontAwesomeIcon icon={faEnvelope} size="3x" className={styles.bioIcon} title={"Email Me"} alt="Email Me"/></a><p className={styles.bioButtonsText}>Email Me</p></li>
                      <li id={styles.linkTwo} ><a href="https://www.linkedin.com/in/andrew-brown2644/" rel="noopener" target="_blank"><FontAwesomeIcon icon={faLinkedinIn} size="3x" className={styles.bioIcon} title={"See My LinkedIn"} alt="My LinkedIn"/></a><p className={styles.bioButtonsText}>LinkedIn</p></li>
-                     <li id={styles.linkThree} ><a href="src/images/andrewbrown_resume.pdf" download><FontAwesomeIcon icon={faArrowDown} size="3x" className={styles.bioIcon} title={"Download Resume"} alt="Download Resume"/></a><p className={styles.bioButtonsText}>Resume</p></li>
+                     <li id={styles.linkThree} ><a href="static/resume/andrewbrown_resume.pdf" download><FontAwesomeIcon icon={faArrowDown} size="3x" className={styles.bioIcon} title={"Download Resume"} alt="Download Resume"/></a><p className={styles.bioButtonsText}>Resume</p></li>
                  </ul>
              </div>
             </div>

@@ -15,6 +15,7 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-layout`,
     // {
     //   resolve: `gatsby-plugin-manifest`,
     //   options: {
@@ -43,12 +44,12 @@ module.exports = {
     //       enableS3StaticWebsiteHosting: true
     //   },
     // },
-    {
-      resolve: `gatsby-plugin-layout`,
-      options: {
-        component: require.resolve(`../gatsby-portfolio/src/components/layout.js`),
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-layout`,
+    //   options: {
+    //     component: require.resolve(`../gatsby-portfolio/src/components/layout.js`),
+    //   },
+    // },
         {
       resolve: `gatsby-plugin-manifest`,
       options: {

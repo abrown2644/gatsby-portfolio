@@ -27,11 +27,13 @@
       width: 12em;
       padding: 20px 0 20px 0;
       animation: type 3s steps(50, end);
+      -webkit-animation: type 3s steps(50, end);
       /* text-shadow: 0 0 4px rgb(80, 80, 80), 0 0 2px rgba(2, 2, 2, 0.719);  */
       }
       
       .introText > p:nth-child(2){
         animation: type2 5s steps(60, end);
+        -webkit-animation: type2 5s steps(60, end);
       }
 
       /* .introText > p:nth-child(3){
@@ -54,6 +56,7 @@
       
       .introText span{
         animation: blink 1s infinite;
+        -webkit-animation: blink 1s infinite;
       }
       
       @keyframes type{ 
@@ -103,11 +106,13 @@
       width: 12em;
       padding: 20px 0 20px 0;
       animation: type 3s steps(50, end);
+      -webkit-animation: type 3s steps(50, end);
       /* text-shadow: 0 0 4px rgb(80, 80, 80), 0 0 2px rgba(2, 2, 2, 0.719);  */
       }
       
       .introText > p:nth-child(2){
         animation: type2 5s steps(60, end);
+        -webkit-animation: type2 5s steps(60, end);
       }
 
       /* .introText > p:nth-child(3){
@@ -130,6 +135,7 @@
       
       .introText span{
         animation: blink 1s infinite;
+        -webkit-animation: blink 1s infinite;
       }
       
       @keyframes type{ 
@@ -179,11 +185,13 @@
       width: 12em;
       padding: 20px 0 0 0;
       animation: type 3s steps(50, end);
+      -webkit-animation: type 3s steps(50, end);
       /* text-shadow: 0 0 4px rgb(80, 80, 80), 0 0 2px rgba(2, 2, 2, 0.719);  */
       }
       
       .introText > p:nth-child(2){
         animation: type2 5s steps(60, end);
+        -webkit-animation: type2 5s steps(60, end);
       }
 
       /* .introText > p:nth-child(3){
@@ -206,6 +214,7 @@
       
       .introText span{
         animation: blink 1s infinite;
+        -webkit-animation: blink 1s infinite;
       }
       
       @keyframes type{ 
@@ -255,11 +264,13 @@
       width: 12em;
       padding: 20px 0 0 0;
       animation: type 3s steps(50, end);
+      -webkit-animation: type 3s steps(50, end);
       /* text-shadow: 0 0 4px rgb(80, 80, 80), 0 0 2px rgba(2, 2, 2, 0.719);  */
       }
       
       .introText > p:nth-child(2){
         animation: type2 5s steps(60, end);
+        -webkit-animation: type2 5s steps(60, end);
       }
 
       /* .introText > p:nth-child(3){
@@ -282,6 +293,7 @@
       
       .introText span{
         animation: blink 1s infinite;
+        -webkit-animation: blink 1s infinite;
       }
       
       @keyframes type{ 
@@ -326,6 +338,7 @@
       width: 12em;
       padding: 20px 0 0 0;
       animation: type 3s steps(50, end);
+      -webkit-animation: type 3s steps(50, end);
       /* text-shadow: 0 0 4px rgb(80, 80, 80), 0 0 2px rgba(2, 2, 2, 0.719);  */
       }
   }

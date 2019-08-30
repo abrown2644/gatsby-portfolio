@@ -283,7 +283,7 @@ class Portfolio extends React.Component {
 
                 {/* TV six */}
                 <div className={styles.card}>
-                    <a href={"https://github.com/abrown2644/warbirdwiki"} target={"_blank"} rel={"noopener"}>
+                    <a href={"https://warbird.wiki/"} target={"_blank"} rel={"noopener"}>
                         <div id="screen12" className={styles.tech} style={techStyle}>
                             <p className={styles.techSiteName}>warbird.wiki</p>
                             <p>My role: All me!</p>

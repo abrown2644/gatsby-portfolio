@@ -162,13 +162,8 @@
         height: 100%;
         padding: 0 10px 0 10px;
         background-color: var(--secondary);
-        /* background-color: #001a33; */
-        /* border-radius: 10px; */
-        /* border: 2px solid #00284e; */
-        /* border-right: 1px solid #0077ff48;
-        border-left: 1px solid #0077ff48; */
         margin: 0;
-        -webkit-tap-highlight-color: red;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     }
 
     .break {
@@ -189,8 +184,6 @@
     }
 
     .navbar li a:hover {
-        /* background-color: rgba(0, 0, 0, 0.219); */
-        /* color: #d4d4d4; */
         color: var(--primary);
     }
 
@@ -299,8 +292,6 @@
     }
     
     .navbar li a:hover {
-        /* background-color: rgba(0, 0, 0, 0.219); */
-        /* color: #d4d4d4; */
         color: var(--primary);
     }
 
@@ -407,8 +398,6 @@
     }
     
     .navbar li a:hover {
-        /* background-color: rgba(0, 0, 0, 0.219); */
-        /* color: #d4d4d4; */
         color: var(--primary);
     }
 

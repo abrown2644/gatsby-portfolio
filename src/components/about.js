@@ -22,7 +22,7 @@ class About extends React.Component {
                     
                     <p className={styles.rowTitle}>My Stuff</p>
                     <div className={styles.row}>
-                        <p>Outside the 9-5 I love learning about new habits and tech to implement in my work. I always keep my feet moving foward, the more I learn the more fun opportunities arise. A highlight of projects im working on right now include an online art store for a friend and my own progressive web app that showcases a database of WW2 fighter planes and related info for those warbird junkies like myself. Check it out in my <Link to="portfolio">portfolio</Link> and see where im at in it's progress.</p>
+                        <p>Outside the 9-5 I love learning about new habits and tech to implement in my work. I always keep my feet moving forward, the more I learn the more fun opportunities arise. A highlight of projects I'm working on right now include an online art store for a friend and my own progressive web app that showcases a database of WW2 fighter planes and related info for those warbird junkies like myself. Check it out in my <Link to="portfolio">portfolio</Link> and see where I'm at in it's progress.</p>
                     </div>
                 </div>
             </section>
